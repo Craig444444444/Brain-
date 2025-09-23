@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "0.1.0-beta",
+  "metadata": {
+    "userId": "01748511231167684470",
+    "created": "2025-09-23T18:49:49.246Z",
+    "lastModified": "2025-09-23T18:55:03.547Z",
+    "totalSessions": 0,
+    "autonomousLearningCycles": 1,
+    "lastLearningCycle": null
+  },
+  "knowledge": [],
+  "autonomousLearning": {
+    "systemState": {
+      "isActive": false,
+      "currentCycle": 0,
+      "learningInterval": 1800000,
+      "lastCycleStart": null,
+      "lastCycleEnd": null,
+      "nextScheduledCycle": null
+    },
+    "learningLog": [],
+    "performanceMetrics": {
+      "cycleSuccessRate": 1,
+      "averageCycleDuration": 0,
+      "apiCallsPerCycle": 0,
+      "knowledgeGrowthRate": 0,
+      "connectionDiscoveryRate": 0
+    },
+    "learningConfiguration": {
+      "enabledMechanisms": {
+        "patternLearning": true,
+        "knowledgeExpansion": true,
+        "personaEvolution": true,
+        "conceptDrift": true,
+        "emergentConnections": false
+      },
+      "thresholds": {
+        "conceptDriftSimilarity": 0.3,
+        "confidenceTrendTrigger": -0.1,
+        "maxNewTopicsPerCycle": 3,
+        "maxConnectionsPerCycle": 5
+      }
+    },
+    "evolutionHistory": {
+      "personaModifications": [],
+      "knowledgeUpdates": []
+    }
+  },
+  "debugInfo": {
+    "lastError": null,
+    "warningCount": 0,
+    "performanceIssues": []
+  }
+}
